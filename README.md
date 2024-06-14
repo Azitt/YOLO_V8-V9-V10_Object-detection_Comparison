@@ -27,8 +27,8 @@ To compare these models, I used YOLOv8n and YOLOv8m, YOLOv9c, YOLOv10n, and YOLO
 ## Datasets
 
 For comparison and training, I used two datasets from Kaggle:
-- [Dataset 1 Name](https://www.kaggle.com/datasets/farzadnekouei/top-view-vehicle-detection-image-dataset)
-- [Dataset 2 Name](https://www.kaggle.com/datasets/javiersanchezsoriano/roundabout-aerial-images-for-vehicle-detection/code)
+- (https://www.kaggle.com/datasets/farzadnekouei/top-view-vehicle-detection-image-dataset)
+- (https://www.kaggle.com/datasets/javiersanchezsoriano/roundabout-aerial-images-for-vehicle-detection/code)
 
 
 ### Prerequisites
