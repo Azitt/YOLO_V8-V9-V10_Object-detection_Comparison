@@ -4,7 +4,7 @@ This repository contains a study comparing the performance of YOLOv8, YOLOv9, an
 
 ## Model Inference Video
 
-<table>
+<!-- <table>
   <tr align="center">
     <td>
       <strong>yolov8m inference result</strong>
@@ -22,7 +22,22 @@ This repository contains a study comparing the performance of YOLOv8, YOLOv9, an
       <img src="results/output_v10.gif" alt="Model Inference 3" width="45%">
     </td>
   </tr>
-</table>
+</table> -->
+<p align="center">
+  <strong>yolov8m inference result</strong>
+  <br>
+  <img src="results/output_v8m1.gif" alt="Model Inference 1" width="70%">
+</p>
+<p align="center">
+  <strong>yolov9c inference result</strong>
+  <br>
+  <img src="results/output_v9c.gif" alt="Model Inference 2" width="70%">
+</p>
+<p align="center">
+  <strong>yolov10m inference result</strong>
+  <br>
+  <img src="results/output_v10.gif" alt="Model Inference 3" width="70%">
+</p>
 
 ![Model Inference](results/output_v8m.gif)
 <!-- ![Model Inference](results/output_v8m1.gif)
