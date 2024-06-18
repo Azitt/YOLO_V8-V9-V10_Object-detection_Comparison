@@ -110,18 +110,18 @@ One thing I noticed is that the dataset I used was imbalanced. When object insta
 <p align="center">
   <strong>yolov8m training output</strong>
   <br>
-  <img src="results/training_yolov8m.png" alt="Image 1" width="70%">
+  <img src="results/training_yolov8m.png" alt="Image 1" width="75%">
 </p>
 
 <p align="center">
   <strong>YOLOv9c training output</strong>
   <br>
-  <img src="results/training_yolov9c.png" alt="Image 1" width="70%">
+  <img src="results/training_yolov9c.png" alt="Image 1" width="75%">
 </p>
 <p align="center">
   <strong>YOLOv10m training output</strong>
   <br>
-  <img src="results/training_yolov10m.png" alt="Image 2" width="70%">
+  <img src="results/training_yolov10m.png" alt="Image 2" width="75%">
 </p>
 
 
