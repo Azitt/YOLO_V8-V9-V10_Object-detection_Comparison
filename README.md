@@ -78,18 +78,9 @@ YOLOv8m mislabeled an object, whereas YOLOv9c correctly labeled it. This is a mi
 YOLOv10m detected the mislabeled object by YOLOv8m, but its confidence score is generally lower compared to YOLOv8m and YOLOv9c.
 
 ![alt text](results/image1_v10.png)
-<!-- here you see v8 is correct and v9 is wrong . because the dataset is imbalanced and small and we have very less truck than car.
-![alt text](results/image4.png) ![alt text](results/image3.png) 
-![alt text](results/image_v10.png) -->
-<!-- ![alt text](results/image_v10_2.png) -->
-<!-- <p align="center">
-  <img src="results/image_v8n_2.png" alt="Image 1" width="45%">
-  <img src="results/image_v8_2.png" alt="Image 2" width="45%">
-</p>
-<p align="center">
-  <img src="results/image_v9_2.png" alt="Image 1" width="45%">
-  <img src="results/image_v10_2.png" alt="Image 2" width="45%">
-</p> -->
+
+Here is another set of comparison:
+
 <p align="center">
   <strong>yolov8n detected all marked objects correctly</strong>
   <br>
@@ -110,11 +101,29 @@ YOLOv10m detected the mislabeled object by YOLOv8m, but its confidence score is 
   <br>
   <img src="results/image_v10_2.png" alt="Image 2" width="70%">
 </p>
-<!-- ![alt text](results/image_v9_2.png)
-![alt text](results/image_v8_2.png)
-![alt text](results/image_v8n_2.png) -->
-<!-- ![alt text](results/image_v10_3.png)
-![alt text](results/image_v10_4.png) -->
+
+The training results show that while the YOLOv10 model is much smaller in size compared to YOLOv8, its accuracy is significantly lower on my dataset. These results can vary depending on the dataset used. Therefore, it's always crucial to benchmark new models based on your specific use case, as a newer model does not necessarily mean it will perform better for your particular needs.
+![alt text](results/table.png)
+
+One thing I noticed is that the dataset I used was imbalanced. When object instances are frequent, the accuracy for YOLOv8, YOLOv9, and YOLOv10 is similar. However, for rare objects (like van and trucks in my dataset), the accuracy of YOLOv10 drops significantly compared to versions 8 and 9.
+
+<p align="center">
+  <strong>yolov8m training output</strong>
+  <br>
+  <img src="results/training_yolov8m.png" alt="Image 1" width="70%">
+</p>
+
+<p align="center">
+  <strong>YOLOv9c training output</strong>
+  <br>
+  <img src="results/training_yolov9c.png" alt="Image 1" width="70%">
+</p>
+<p align="center">
+  <strong>YOLOv10m training output</strong>
+  <br>
+  <img src="results/training_yolov10m.png" alt="Image 2" width="70%">
+</p>
+
 
 ## Objectives
 
