@@ -91,22 +91,22 @@ YOLOv10m detected the mislabeled object by YOLOv8m, but its confidence score is 
   <img src="results/image_v10_2.png" alt="Image 2" width="45%">
 </p> -->
 <p align="center">
-  <strong>yolov8n detects all objects correctly</strong>
+  <strong>yolov8n detected all marked objects correctly</strong>
   <br>
   <img src="results/image_v8n_2.png" alt="Image 1" width="70%">
 </p>
 <p align="center">
-  <strong>yolov8m detects all objects correctly</strong>
+  <strong>yolov8m detected all marked objects correctly</strong>
   <br>
   <img src="results/image_v8_2.png" alt="Image 2" width="70%">
 </p>
 <p align="center">
-  <strong>YOLOv9c incorrectly labeled one object but correctly detected two other objects</strong>
+  <strong>YOLOv9c incorrectly labeled one object but correctly detected two other marked objects</strong>
   <br>
   <img src="results/image_v9_2.png" alt="Image 1" width="70%">
 </p>
 <p align="center">
-  <strong>YOLOv10m failed to detect any of the objects</strong>
+  <strong>YOLOv10m failed to detect any of the marked objects</strong>
   <br>
   <img src="results/image_v10_2.png" alt="Image 2" width="70%">
 </p>
