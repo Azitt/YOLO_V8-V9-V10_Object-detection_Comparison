@@ -39,6 +39,7 @@ This repository contains a study comparing the performance of YOLOv8, YOLOv9, an
   <img src="results/output_v10.gif" alt="Model Inference 3" width="75%">
 </p>
 Yolov8m inference result on another dataset.
+
 ![Model Inference](results/output_v8m.gif)
 <!-- ![Model Inference](results/output_v8m1.gif)
 ![Model Inference](results/output_v9c.gif)
@@ -89,32 +90,26 @@ YOLOv10m detected the mislabeled object by YOLOv8m, but its confidence score is 
   <img src="results/image_v9_2.png" alt="Image 1" width="45%">
   <img src="results/image_v10_2.png" alt="Image 2" width="45%">
 </p> -->
-<table>
-  <tr align="center">
-    <td>
-      <strong>yolov8n detects all object correctly</strong>
-      <br>
-      <img src="results/image_v8n_2.png" alt="Image 1" width="45%">
-    </td>
-    <td>
-      <strong>yolov8m detects all object correctly</strong>
-      <br>
-      <img src="results/image_v8_2.png" alt="Image 2" width="45%">
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <strong>YOLOv9c incorrectly labeled one object but correctly detected two other objects</strong>
-      <br>
-      <img src="results/image_v9_2.png" alt="Image 1" width="45%">
-    </td>
-    <td>
-      <strong>YOLOv10m failed to detect any of the objects</strong>
-      <br>
-      <img src="results/image_v10_2.png" alt="Image 2" width="45%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <strong>yolov8n detects all objects correctly</strong>
+  <br>
+  <img src="results/image_v8n_2.png" alt="Image 1" width="70%">
+</p>
+<p align="center">
+  <strong>yolov8m detects all objects correctly</strong>
+  <br>
+  <img src="results/image_v8_2.png" alt="Image 2" width="70%">
+</p>
+<p align="center">
+  <strong>YOLOv9c incorrectly labeled one object but correctly detected two other objects</strong>
+  <br>
+  <img src="results/image_v9_2.png" alt="Image 1" width="70%">
+</p>
+<p align="center">
+  <strong>YOLOv10m failed to detect any of the objects</strong>
+  <br>
+  <img src="results/image_v10_2.png" alt="Image 2" width="70%">
+</p>
 <!-- ![alt text](results/image_v9_2.png)
 ![alt text](results/image_v8_2.png)
 ![alt text](results/image_v8n_2.png) -->
