@@ -26,19 +26,19 @@ This repository contains a study comparing the performance of YOLOv8, YOLOv9, an
 <p align="center">
   <strong>yolov8m inference result</strong>
   <br>
-  <img src="results/output_v8m1.gif" alt="Model Inference 1" width="70%">
+  <img src="results/output_v8m1.gif" alt="Model Inference 1" width="75%">
 </p>
 <p align="center">
   <strong>yolov9c inference result</strong>
   <br>
-  <img src="results/output_v9c.gif" alt="Model Inference 2" width="70%">
+  <img src="results/output_v9c.gif" alt="Model Inference 2" width="75%">
 </p>
 <p align="center">
   <strong>yolov10m inference result</strong>
   <br>
-  <img src="results/output_v10.gif" alt="Model Inference 3" width="70%">
+  <img src="results/output_v10.gif" alt="Model Inference 3" width="75%">
 </p>
-
+Yolov8m inference result on another dataset.
 ![Model Inference](results/output_v8m.gif)
 <!-- ![Model Inference](results/output_v8m1.gif)
 ![Model Inference](results/output_v9c.gif)
@@ -49,7 +49,7 @@ This repository contains a study comparing the performance of YOLOv8, YOLOv9, an
 
 To compare these models, I used YOLOv8n and YOLOv8m, YOLOv9c, YOLOv10n, and YOLOv10m. The reason for comparing the medium-sized models is that there is only YOLOv9c pretrained weight available, and the size of this model is similar to the medium-sized YOLOv8 and YOLOv10 models. The table below shows the comparison results.
 YOLOv8m mislabeled an object, whereas YOLOv9c correctly labeled it. This is a minor mistake, and with further training, the model will likely improve.
-<table>
+<!-- <table>
   <tr align="center">
     <td>
       <strong>yolov8m detection</strong>
@@ -62,10 +62,20 @@ YOLOv8m mislabeled an object, whereas YOLOv9c correctly labeled it. This is a mi
       <img src="results/image1_v9c.png" alt="Image 2" width="45%">
     </td>
   </tr>
-</table>
+</table> -->
+<p align="center">
+  <strong>yolov8m detection</strong>
+  <br>
+  <img src="results/image1_v8m.png" alt="Image 1" width="70%">
+</p>
+<p align="center">
+  <strong>yolov9c detection</strong>
+  <br>
+  <img src="results/image1_v9c.png" alt="Image 2" width="70%">
+</p>
 <!-- ![alt text](results/image1_v8m.png) ![alt text](results/image1_v9c.png) -->
 YOLOv10m detected the mislabeled object by YOLOv8m, but its confidence score is generally lower compared to YOLOv8m and YOLOv9c.
-![alt text](image1_v10.png)
+![alt text](results/image1_v10.png)
 <!-- here you see v8 is correct and v9 is wrong . because the dataset is imbalanced and small and we have very less truck than car.
 ![alt text](results/image4.png) ![alt text](results/image3.png) 
 ![alt text](results/image_v10.png) -->
