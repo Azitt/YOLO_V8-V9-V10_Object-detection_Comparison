@@ -10,7 +10,7 @@ This repository contains a study comparing the performance of YOLOv8, YOLOv9, an
 # Comparison results
 
 To compare these models, I used YOLOv8n and YOLOv8m, YOLOv9c, YOLOv10n, and YOLOv10m. The reason for comparing the medium-sized models is that there is only YOLOv9c pretrained weight available, and the size of this model is similar to the medium-sized YOLOv8 and YOLOv10 models. The table below shows the comparison results.
-Yolov8m miss labeling vs Yolov9m correct labeling, this is minor mistake I think and if you train the model more you probabley get it right. 
+Yolov8m miss labeling vs Yolov9m correct labeling, this is minor mistake I think and if you train the model more you probabley get it right. can I make these picture smaller next to eachother ??????????
 ![alt text](results/image.png) ![alt text](results/image1.png)
 here you see v8 is correct and v9 is wrong . because the dataset is imbalanced and small and we have very less truck than car.
 ![alt text](results/image4.png) ![alt text](results/image3.png)
