@@ -75,6 +75,7 @@ YOLOv8m mislabeled an object, whereas YOLOv9c correctly labeled it. This is a mi
 </p>
 <!-- ![alt text](results/image1_v8m.png) ![alt text](results/image1_v9c.png) -->
 YOLOv10m detected the mislabeled object by YOLOv8m, but its confidence score is generally lower compared to YOLOv8m and YOLOv9c.
+
 ![alt text](results/image1_v10.png)
 <!-- here you see v8 is correct and v9 is wrong . because the dataset is imbalanced and small and we have very less truck than car.
 ![alt text](results/image4.png) ![alt text](results/image3.png) 
