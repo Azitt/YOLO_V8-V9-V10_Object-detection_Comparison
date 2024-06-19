@@ -128,7 +128,6 @@ One thing I noticed is that the dataset I used was imbalanced. When object insta
 
 ## Repository Structure
 
-- `data/`: Contains the datasets used for training and evaluation.
 - `models/`: Contains model configurations and weights for YOLOv8, YOLOv9, and YOLOv10.
 - `scripts/`: Python scripts for training, evaluation, and utility functions.
 - `results/`: Stores the results of the comparison study.
