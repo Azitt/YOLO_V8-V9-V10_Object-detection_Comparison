@@ -48,7 +48,7 @@ Yolov8m inference result on another dataset.
 
 # Comparison results
 
-To compare these models, I used YOLOv8n and YOLOv8m, YOLOv9c, YOLOv10n, and YOLOv10m. The reason for comparing the medium-sized models is that there is only YOLOv9c pretrained weight available, and the size of this model is similar to the medium-sized YOLOv8 and YOLOv10 models. The table below shows the comparison results.
+To compare these models, I used YOLOv8m, YOLOv9c, YOLOv10m. The reason for comparing the medium-sized models is that there is only YOLOv9c pretrained weight available, and the size of this model is similar to the medium-sized YOLOv8 and YOLOv10 models. The table below shows the comparison results.
 YOLOv8m mislabeled an object, whereas YOLOv9c correctly labeled it. This is a minor mistake, and with further training, the model will likely improve.
 <!-- <table>
   <tr align="center">
@@ -125,11 +125,6 @@ One thing I noticed is that the dataset I used was imbalanced. When object insta
 </p>
 
 
-## Objectives
-
-- Compare the accuracy of YOLOv8, YOLOv9, and YOLOv10.
-- Evaluate the inference speed and computational requirements of each model.
-- Analyze the models' performance on different types of datasets, with a focus on traffic/vehicle detection.
 
 ## Repository Structure
 
@@ -149,4 +144,3 @@ For comparison and training, I used two datasets from Kaggle:
 
 - Python 3.8 or higher
 - PyTorch
-- Other dependencies listed in `requirements.txt`
